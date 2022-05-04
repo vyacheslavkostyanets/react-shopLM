@@ -41,3 +41,41 @@ export const categories = [
 		title: "Autumn Sale"
 	},
 ]
+
+
+export const popularProducts = [
+	{
+		id: 1,
+		img: 'https://i.ibb.co/g7Q7MJj/3.jpg',
+
+	},
+	{
+		id: 2,
+		img: 'https://i.ibb.co/s9YRVdm/11.jpg',
+
+	},
+	{
+		id: 3,
+		img: 'https://i.ibb.co/x6wsHQz/777777.jpg',
+	},
+	{
+		id: 4,
+		img: 'https://i.ibb.co/wW5KHsk/77.jpg',
+	},
+	{
+		id: 5,
+		img: 'https://i.ibb.co/Bwhr1dV/88.jpg',
+	},
+	{
+		id: 6,
+		img: 'https://i.ibb.co/8xrcbv4/j3.jpg',
+	},
+	{
+		id: 7,
+		img: 'https://i.ibb.co/mRYqzjb/j4.jpg',
+	},
+	{
+		id: 8,
+		img: 'https://i.ibb.co/G98MzFV/j5.webp',
+	},
+]
