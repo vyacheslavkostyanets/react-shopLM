@@ -5,6 +5,7 @@ import Announcement from "../components/Announcement";
 import Products from "../components/Products";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
+import Links from "../components/Links";
 
 const Container = styled.div``;
 const Title = styled.h1`
@@ -31,6 +32,7 @@ const Option = styled.option``;
 const ProductList = () => {
   return (
     <Container>
+      <Links />
       <Navbar />
       <Announcement />
       <Title>Dresses</Title>

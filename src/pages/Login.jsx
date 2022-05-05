@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Links from "../components/Links";
 
 const Container = styled.div`
   width: 100vw;
@@ -49,18 +50,22 @@ const Link = styled.a`
 
 const Login = () => {
   return (
-    <Container>
-      <Wrapper>
-        <Title>Create an ACCOUNT</Title>
-        <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
-          <Button>Login</Button>
-          <Link href="#">Forget password?</Link>
-          <Link href="#">Create a new account</Link>
-        </Form>
-      </Wrapper>
-    </Container>
+    <div>
+      <Links />
+
+      <Container>
+        <Wrapper>
+          <Title>Create an ACCOUNT</Title>
+          <Form>
+            <Input placeholder="username" />
+            <Input placeholder="password" />
+            <Button>Login</Button>
+            <Link href="#">Forget password?</Link>
+            <Link href="#">Create a new account</Link>
+          </Form>
+        </Wrapper>
+      </Container>
+    </div>
   );
 };
 

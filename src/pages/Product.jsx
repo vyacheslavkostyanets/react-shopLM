@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
+import Links from "../components/Links";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 
@@ -97,6 +98,7 @@ const Button = styled.button`
 const Product = () => {
   return (
     <Container>
+      <Links />
       <Navbar />
       <Announcement />
 
